@@ -1,6 +1,6 @@
 /* 10AP Final – offline service worker. Change VERSION after every update of index.html */
 const PREFIX = "ap10-final-";
-const VERSION = PREFIX + "v6";
+const VERSION = PREFIX + "v7";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./ap10-icon-180.png", "./ap10-icon-192.png", "./ap10-icon-512.png"];
 
 self.addEventListener("install", e => {
